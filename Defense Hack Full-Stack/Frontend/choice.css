@@ -1,0 +1,22 @@
+.bg-img {
+    /* The image used */
+    background-image: url("./crypto.jpg");
+  
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .heading {
+    font-family: 'Patua One', cursive;
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 250px;
+   
+    
+  }

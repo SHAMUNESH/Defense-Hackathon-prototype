@@ -1,0 +1,152 @@
+.bg-img {
+    /* The image used */
+    background-image: url("./bgimg.png");
+  
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .encry-text {
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 300px;
+    margin-right: 220px;
+  }
+  .encryp-text {
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    
+    margin-right: 120px; 
+  }
+  .form-control{
+    width: 20%;
+  }
+  .missing{
+    background-color:  #e74c3c ;
+    color: #fff;
+    width: 20%;
+    border-radius: 5px;
+  }
+#alert{
+    display: none;
+    width:10%;
+  }
+  
+.hidden {
+  display: none;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+button, .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  border-color: #cdd;
+}
+
+.share-button, .copy-link {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.share-button, .share-dialog {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
+}
+
+.share-dialog {
+  display: none;
+  width: 95%;
+  max-width: 500px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+  z-index: -1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-top: 200px;
+}
+
+.share-dialog.is-open {
+  display: block;
+  z-index: 2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.targets {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.close-button svg {
+  margin-right: 0;
+}
+
+@media (max-width:800px) {
+  .bg-img {
+    height: 400px;
+  }
+  .encry-text {
+    margin-top: 20px !important;
+  }
+  .form-control{
+    width: 70% !important;
+  }
+  .missing{
+    width: 50% !important;
+  }
+ 
+  body {
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  }
+}
+

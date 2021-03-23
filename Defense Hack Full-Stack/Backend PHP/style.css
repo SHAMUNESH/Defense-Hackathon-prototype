@@ -1,0 +1,87 @@
+body {
+	background-color:   #5d6d7e  ;
+	
+}
+.formdiv {
+	
+	margin-top: 70px;
+	margin-left: 90px;
+  width: 70%;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+	
+
+}
+.signal {
+  margin-left: 55px;
+  padding: 10px;
+}
+.signup {
+  float: right;
+  position: relative;
+  
+  height: 500px;
+  width: 520px;
+
+
+
+}
+.login {
+  float: right;
+  position: relative;
+  height: 400px;
+  width: 430px;
+
+}
+.form-group {
+	width: 40%;
+margin-left: 70px;
+}
+#btn {
+	margin-left: 70px;
+
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .formdiv{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+  }
+  body{
+    height: 200px;
+  }
+  .form-group {
+    width: 70%;
+  }
+  .signal {
+
+    margin-left: 60px;
+    padding: 10px;
+    
+  }
+  .signup {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+
+}
+
